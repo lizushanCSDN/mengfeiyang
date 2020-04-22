@@ -1,0 +1,111 @@
+{
+	"miniprogramRoot": "miniprogram/",
+	"cloudfunctionRoot": "cloudfunctions/",
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"enhance": true,
+		"postcss": true,
+		"preloadBackgroundData": false,
+		"minified": true,
+		"newFeature": true,
+		"coverView": true,
+		"nodeModules": true,
+		"autoAudits": false,
+		"showShadowRootInWxmlPanel": true,
+		"scopeDataCheck": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		}
+	},
+	"appid": "wx0799ccd9a62f769c",
+	"projectname": "%E5%B0%8F%E7%A8%8B%E5%BA%8F%E9%A1%B9%E7%9B%AE",
+	"libVersion": "2.8.1",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 0,
+			"list": [
+				{
+					"id": -1,
+					"name": "db guide",
+					"pathName": "pages/databaseGuide/databaseGuide",
+					"query": ""
+				},
+				{
+					"id": 1,
+					"name": "pageone",
+					"pathName": "pages/pageone/pageone",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pagetwo",
+					"pathName": "pages/pagetwo/pagetwo",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pagethree",
+					"pathName": "pages/pagethree/pagethree",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pagefour",
+					"pathName": "pages/pagefour/pagefour",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pagefive",
+					"pathName": "pages/pagefive/pagefive",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pagesix",
+					"pathName": "pages/pagesix/pagesix",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pageseven",
+					"pathName": "pages/pageseven/pageseven",
+					"scene": null
+				}
+			]
+		}
+	}
+}

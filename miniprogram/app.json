@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/pageone/pageone",
+    "pages/pagetwo/pagetwo",
+    "pages/pagethree/pagethree",
+    "pages/pagefour/pagefour",
+    "pages/pagefive/pagefive",
+    "pages/pagesix/pagesix",
+    "pages/pageseven/pageseven"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ff6700",
+    "navigationBarTitleText": "梦飞阳",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#cdcdcd",
+    "selectedColor": "#f4ea2a",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "../miniprogram/images/Home1.png",
+        "selectedIconPath": "../miniprogram/images/Home.png"
+      },
+      {
+        "pagePath": "pages/pageone/pageone",
+        "text": "首页",
+        "iconPath": "../miniprogram/images/page1.png",
+        "selectedIconPath": "../miniprogram/images/page.png"
+      }
+    ]
+  },
+  "usingComponents": {
+    "van-button": "@vant/weapp/button/index",
+    "van-cell": "@vant/weapp/cell/index",
+    "van-calendar": "@vant/weapp/calendar/index"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

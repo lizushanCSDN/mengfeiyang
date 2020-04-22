@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "com-one":"../../components/component1/component1"
+  }
+}

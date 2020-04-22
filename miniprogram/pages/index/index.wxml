@@ -1,0 +1,46 @@
+<!-- {{str}} -->
+
+<!-- 跳转页面 -->
+<button size="default" bindtap="pageone" type="primary">pageone</button>
+
+<!-- 循环数组 -->
+<!-- <view wx:for="{{arr}}" wx:for-item="itemName" wx:key="index">
+	{{itemName}}---{{index}}
+</view> -->
+
+<!-- 判断渲染 -->
+<!-- <view wx:if="{{num>0}}">num大于0</view>
+<view wx:elif="{{num<0}}">num小于0</view>
+<view wx:else>num等于0</view> -->
+
+<!-- 循环对象 -->
+<!-- <view wx:for="{{objArr}}">
+  <view>姓名：{{item.name}}</view>
+  <view>年龄：{{item.age}}</view>
+</view> -->
+
+<!-- 循环对象，外部不加view -->
+<!-- <block wx:for="{{objArr}}">
+  <view>姓名：{{item.name}}</view>
+  <view>年龄：{{item.age}}</view>
+</block> -->
+
+<!-- 组件 -->
+<!-- <template name="tem1">
+  <view>姓名：{{name}}</view>
+  <view>年龄：{{age}}</view>
+</template>
+<view wx:for="{{objArr}}" wx:key="index">
+  <template is="tem1" data="{{...item}}"></template>
+</view> -->
+
+<!-- 引入外部文件 -->
+<!-- <import src="./tem.wxml"/>
+<view wx:for="{{objArr}}" wx:key="index">
+  <template is="tem1" data="{{...item}}"></template>
+</view>
+<template is="tem1" data="{{name:'aaaa',age:22}}"></template> -->
+
+<!-- 上拉 -->
+<view class="box"></view>
+

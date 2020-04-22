@@ -1,0 +1,7 @@
+<view class="box1" bindtap="handle1">
+  <view class="box2" bindtap="handle2">
+    <view class="box3" catchtap="handle3"></view>
+  </view>
+</view>
+{{num}}
+<button data-add="2" bindtap="addHandle" type="primary">add</button>
